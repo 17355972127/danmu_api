@@ -25,7 +25,7 @@ function resolveToken(env) {
   return DEFAULT_TOKEN;
 }
 
-const DEFAULT_OTHER_SERVER = "https://fc.lyz05.cn"; // 默认 第三方弹幕服务器
+const DEFAULT_OTHER_SERVER = "https://api.danmu.icu"; // 默认 第三方弹幕服务器
 let otherServer = DEFAULT_OTHER_SERVER;
 
 function resolveOtherServer(env) {
