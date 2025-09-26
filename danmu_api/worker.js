@@ -34,7 +34,7 @@ function resolveOtherServer(env) {
   return DEFAULT_OTHER_SERVER;
 }
 
-const DEFAULT_VOD_SERVER = "https://www.caiji.cyou"; // 默认 vod站点
+const DEFAULT_VOD_SERVER = "https://zy.jinchancaiji.com/api.php/provide/vod/"; // 默认 vod站点
 let vodServer = DEFAULT_VOD_SERVER;
 
 function resolveVodServer(env) {
